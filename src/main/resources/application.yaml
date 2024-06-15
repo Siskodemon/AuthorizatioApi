@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: myuser
+    password: 8110353112q
+    diver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
